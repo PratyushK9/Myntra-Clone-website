@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+  nav{
+  position: sticky;
+  top: 0;
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  height: fit-content;
+  padding: 5px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.options{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* margin-left: 40px; */
+  font-weight: bold;
+  /* border: none; */
+}
+.first-section{
+  display: flex;
+  flex: 1;
+  height: max-content;
+  width: 100%;
+  padding: 50px;
+}
+.first-text-section{
+  width: 50%;
+}
+.first-text-section>h1{
+  font-size: 69px;
+  margin: 0;
+}
+.first-text-section>h2{
+  font-size: 55px;
+  margin-bottom: 0;
+}
+.name-colour{
+  color: rgb(18, 172, 154);
+}
+.image-first-section{
+  width: 50%;
+  /* margin-left: 25%; */
+  padding: 15px;
+  text-align: center;
+  text-decoration: underline;
+
+
+}
+
+.pratyush-image{
+  height: auto;
+  width: auto;
+  border-radius: 65%;
+  border: 5px solid rgb(18, 172, 154);
+
+}
+.developer-colour{
+  color: rgb(18, 172, 154);
+  /* clear: right; */
+
+}
+
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar nav-container">
+      <a href="index.html"><img src="Myntra-Logo copy.png" alt="myntra-logo" class="logo logo-img" height="50px"></a>
+
+      <div class="options"> <!--this is are the different options -->
+        <div class="men" onclick="location.href='mens.html' ">Men</div>
+        <div class="women">Women</div>
+        <div class="kids">Kids</div>
+        <div class="home-living">Home & Living</div>
+        <div class="beauty"> Beauty</div>
+        <div class="studio">Studio<sup class="red-superscript">New</sup></div>
+
+      </div> <!--closing tag of differnet options-->
+      
+      <div class="search-box">
+      <img src="search.svg" class="search-svg">
+      <input type="search" name="search" id="search" placeholder="Search Fashion....."> 
+      </div>
+
+      <div class="svg person-fill"><img src="person-fill.svg" alt="" class="person-fill svgs">Profile</div>
+      <div class="svg heart"><img src="heart.svg" alt="" class="heart svgs">Wishlist</div>
+      <div class="svg bag"><img src="bag.svg" alt="" class="bag svgs">Bag</div>
+
+    </div>
+  </nav>
+
+
+  <div class="first-section">
+    <div class="first-text-section">
+      <h1>Hello, I'm <br><span class="name-colour">Pratyush Kumar</span></h1>
+      <h2>About Me!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eius distinctio cum est fugit in tempora, nemo quas aspernatur eveniet asperiores quam. Et saepe laborum in numquam totam blanditiis, tempore vitae aliquid? Quas, debitis repudiandae. Temporibus illum, sequi, commodi quos rem quis qui quidem repellat ratione facilis dolore cum error.</p>
+
+    <div class="contact-me">
+
+      <h2>Contact Me</h2>
+    <div id="gitsvg">
+    <a href="https://github.com/PratyushK9"><img src="github-142-svgrepo-com.svg" alt="" height="25"></a></div>
+    <div id="email">
+    <a href="htttps://www.gmail.com"><img src="email-1-svgrepo-com.svg" alt="" height="25"></div>
+
+    <div id="instagram">
+    <a href="https://wwww.instagram.com"><img src="instagram-svgrepo-com.svg" alt="" height="25"></a></div>
+  </div>
+
+
+    </div>
+
+    <div class="image-first-section">
+      <img src="Screenshot (67).png" alt="image of Pratyush" class="pratyush-image">
+      <h1>Frontend <span class="developer-colour">Developer?</span></h1>
+      </div>
+    </div> <!--end of the first section-->
+  
+</body>
+</html>
